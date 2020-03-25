@@ -1,0 +1,74 @@
+500 Can't connect to -:80 (Name or service not known)
+Content-Type: text/plain
+Client-Date: Wed, 25 Mar 2020 22:31:40 GMT
+Client-Warning: Internal response
+
+200 OK
+Cache-Control: max-age=0, no-cache, no-store
+Connection: close
+Date: Wed, 25 Mar 2020 20:31:41 GMT
+Pragma: no-cache
+Pragma: EAX-Redirector-Cloudlet-PROD
+ETag: "10849-59f7f61addb00-gzip"
+Server: Apache
+Content-Type: text/html
+Expires: Wed, 25 Mar 2020 20:31:41 GMT
+Last-Modified: Wed, 26 Feb 2020 19:12:12 GMT
+Client-Date: Wed, 25 Mar 2020 22:31:55 GMT
+Client-Peer: 2.21.238.230:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert SHA2 Secure Server CA
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Redwood City/O=Electronic Arts, Inc./OU=EA Online/Pogo.com/CN=*.origin.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Link: <https://api4.origin.com>; rel=preconnect
+Link: <https://api3.origin.com>; rel=preconnect
+Link: <https://api2.origin.com>; rel=preconnect
+Link: <https://api1.origin.com>; rel=preconnect
+Link: <https://data4.origin.com>; rel=preconnect
+Link: <https://data3.origin.com>; rel=preconnect
+Link: <https://data2.origin.com>; rel=preconnect
+Link: <https://data1.origin.com>; rel=preconnect
+Set-Cookie: AWSELB=2FAFF949026E69DC0DC19203AA11597BE14F279F4FAF6A3816D1D65568B57D63467C849C9C1ED00BAF45AF4E17C7683C5B2C6F055AB4A26E7C8A46E0FE7B8B459A7260CDB5;PATH=/
+Set-Cookie: AWSELBCORS=2FAFF949026E69DC0DC19203AA11597BE14F279F4FAF6A3816D1D65568B57D63467C849C9C1ED00BAF45AF4E17C7683C5B2C6F055AB4A26E7C8A46E0FE7B8B459A7260CDB5;PATH=/;SECURE;SAMESITE=None
+Strict-Transport-Security: max-age=7776000
+X-Frame-Options: SAMEORIGIN
+X-Origin-Ops: uOfhCbOpB8kPwLERDcdIAs8EPLwU+zo7mblbZX6Utho=%0A
+
+200 OK
+Cache-Control: max-age=0, no-cache, no-store
+Connection: close
+Date: Wed, 25 Mar 2020 20:31:47 GMT
+Pragma: no-cache
+Pragma: EAX-Redirector-Cloudlet-PROD
+ETag: "10849-59f7f61addb00-gzip"
+Server: Apache
+Content-Type: text/html
+Expires: Wed, 25 Mar 2020 20:31:47 GMT
+Last-Modified: Wed, 26 Feb 2020 19:12:12 GMT
+Client-Date: Wed, 25 Mar 2020 22:32:01 GMT
+Client-Peer: 2.21.238.230:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=DigiCert Inc/CN=DigiCert SHA2 Secure Server CA
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Redwood City/O=Electronic Arts, Inc./OU=EA Online/Pogo.com/CN=*.origin.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Link: <https://api4.origin.com>; rel=preconnect
+Link: <https://api3.origin.com>; rel=preconnect
+Link: <https://api2.origin.com>; rel=preconnect
+Link: <https://api1.origin.com>; rel=preconnect
+Link: <https://data4.origin.com>; rel=preconnect
+Link: <https://data3.origin.com>; rel=preconnect
+Link: <https://data2.origin.com>; rel=preconnect
+Link: <https://data1.origin.com>; rel=preconnect
+Set-Cookie: AWSELB=2FAFF949026E69DC0DC19203AA11597BE14F279F4F3D906DC2F903392B3D301D032F6925A2203C353660490B84360A047320FDCAAF4097221049812D5C5A664DE082A31CA4;PATH=/
+Set-Cookie: AWSELBCORS=2FAFF949026E69DC0DC19203AA11597BE14F279F4F3D906DC2F903392B3D301D032F6925A2203C353660490B84360A047320FDCAAF4097221049812D5C5A664DE082A31CA4;PATH=/;SECURE;SAMESITE=None
+Strict-Transport-Security: max-age=7776000
+X-Frame-Options: SAMEORIGIN
+X-Origin-Ops: xgAP9qjkLzyTE0Lx4zLUUA8XdY514MQJCHAVdGMxwFk=%0A
+
+500 Can't connect to www.master.co.il:80 (Connection timed out)
+Content-Type: text/plain
+Client-Date: Wed, 25 Mar 2020 22:34:12 GMT
+Client-Warning: Internal response
+
