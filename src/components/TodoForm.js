@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import TodoList from './TodoList'
 
-class todoList extends Component  {
+class AddTodo extends Component  {
 
     constructor () {
         super();
@@ -20,20 +21,28 @@ class todoList extends Component  {
         this.setState({ task: task})
     }
 
+    handleDelete (task){
+        let newTodo = this.state.todos.filter((item) => {return item !== task})
+        this.setState({ todos: newTodo})
+    }
+
     render(){
         return(
             <div className="todo">
+
                 <form onSubmit = {this.handleSubmit.bind(this)}>
                     <input onChange = {this.handleChange.bind(this)} value = {this.state.task} placeholder="Enter your new task"/>
                     <button type="submit">Add</button>
                 </form>
-                <div>
-                    {this.state.todos.toString()}
-                </div>
+
+                <TodoList 
+                handleDelete = {this.handleDelete.bind(this)}
+                todos = {this.state.todos}/>
+
             </div>
 
         );
         }
 }
 
-export default todoList;
+export default AddTodo;
